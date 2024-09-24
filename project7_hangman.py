@@ -1,4 +1,4 @@
-# word_list = ["ardvark" , "baboon" , "camel"]
+
 from  hangman_words import word_list
 
 import random
