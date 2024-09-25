@@ -21,7 +21,7 @@ bids = {}
 bidding_finished = False 
 while not bidding_finished:  
     name = input("what is your name?: ")
-    price = int(input("what's your bid?"))
+    price = int(input("what's your bid?: $"))
     bids[name] = price
     another_bidder = input("Type 'yes' if other users also want to bid orelse type 'no'")
     if another_bidder == "no":
