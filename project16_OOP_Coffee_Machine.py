@@ -1,4 +1,4 @@
-from OOP_menu import Menu
+from OOP_menu import Menu 
 from OOP_coffee_maker import CoffeeMaker
 from OOP_money_machine import MoneyMachine
 
@@ -21,3 +21,4 @@ while is_on:
         
         if coffee_maker.is_resource_sufficient(drink) and money_machine.make_payment(drink.cost):
           coffee_maker.make_coffee(drink)
+
