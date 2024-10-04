@@ -21,11 +21,5 @@ def spirograh(angle):
 spirograh(5)
 
 
-
-
-
-
-
-
 screen = t.Screen()
 screen.exitonclick()

@@ -10,6 +10,8 @@
 #     rgb_color.append(new_color)
 
 # print(rgb_color)
+
+
 import turtle as t
 import random
 
