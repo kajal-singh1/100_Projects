@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv("100_Projects/project26/nato_phonetic_alphabet.csv")
+data = pd.read_csv("100_Projects/project26_Nato_Phonetic_Alphabet/nato_phonetic_alphabet.csv")
 new_value = {row.letter:row.code for (index,row) in data.iterrows()}
 
 
