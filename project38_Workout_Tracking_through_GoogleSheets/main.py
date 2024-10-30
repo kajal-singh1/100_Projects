@@ -1,10 +1,14 @@
 import requests
 from datetime import datetime
+import os 
 
 GENDER = 'female'
 WEIGHT_KG = 53
 HEIGHT_CM = 146
 AGE = 22
+
+APP_ID = os.environ["NT_APP_ID"]
+API_KEY = os.environ["NT_API_KEY"]
 
 APP_ID = '5dab5cf0'
 API_KEY = '5294cf1d7a5c18d8bbdc05fe54391d4b'
@@ -49,17 +53,4 @@ for exercise in result["exercises"]:
 
     print(sheet_response.text)
 
-head = {
-    'Authorization': 'Basic bGFsaTphMzAxMHNqaGtsZ2o0NjMxMjM0bmhoY2ZkZmI='
-}
 
-sheet_response = requests.post(
-  sheet_endpoint, 
-  json=sheet_inputs, 
-#   headers=head 
-  auth=(
-       'lali',
-       'a3010sjhklgj4631234nhhcfdfb',
-    ),
-   
-)
