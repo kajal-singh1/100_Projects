@@ -10,8 +10,8 @@ AGE = 22
 APP_ID = os.environ["NT_APP_ID"]
 API_KEY = os.environ["NT_API_KEY"]
 
-APP_ID = '5dab5cf0'
-API_KEY = '5294cf1d7a5c18d8bbdc05fe54391d4b'
+APP_ID = 'appid'
+API_KEY = 'apikey'
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint = "https://api.sheety.co/fb15bd94c6a79690169ef25886ab6966/workoutTracking/workouts"
